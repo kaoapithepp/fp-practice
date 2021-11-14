@@ -10,5 +10,3 @@ zipper(x:xs, y:ys) = (x,y) : zipper(xs,ys)
 -- zipper ([], "functional")            ; type : [(a, Char)]
 -- zipper ([1,2,3], [])                 ; type : Num a => [(a, b)]
 -- zipper ([1,1.5,2], [2.5,3,3.5,3])    ; type : (Fractional a, Fractional b) => [(a, b)]
-
-
