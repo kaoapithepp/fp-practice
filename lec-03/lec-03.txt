@@ -1,0 +1,14 @@
+Pure functions
+: consider whether that function could be cached or not.
+: can be cached if we know the exact result.
+
+Side effects
+: สิ่งที่เกิดขึ้นที่ไม่เกี่ยวข้องกับผลลัพธ์ที่ต้องการ โดยบางทีเราอาจจะตั้งใจให้เกิด side effect ขึ้นหรือไม่ได้ตั้งใจก็ได้
+
+Partial function
+join' :: [a] -> [a] -> [a] //ทั้งหมดนั้นคือ type ของ function join' โดยมีความหมายว่า [a]/input -> ([a] -> [a])/output โดยมี return type คือ [a] -> [a] 
+join' [] ys = ys
+join' (x:xs) ys = x : join' xs ys // xs และ ys ต่อคิวเข้า join'
+
+Currying
+จาก Full app เป็น partial app ส่วน uncurry ก็ตรงข้ามกัน

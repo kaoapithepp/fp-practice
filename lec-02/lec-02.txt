@@ -1,1 +1,4 @@
 Haskell types
+.
+Concept of this lecture's exercise is we want to know whether we can solve this problem
+by using passed function/concept/idea or can not.

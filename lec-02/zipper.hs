@@ -1,7 +1,7 @@
 -- zipper :: ([a], [b]) -> [(a, b)]
 zipper([],[]) = []
-zipper([],ys) = []
-zipper(x,[]) = []
+zipper([],ys) = []  -- You can use wildcard ([],_).
+zipper(x,[]) = []   -- You can use wildcard (_,[]).
 zipper(x:xs, y:ys) = (x,y) : zipper(xs,ys)
 
 -- test cases
