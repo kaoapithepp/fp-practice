@@ -1,5 +1,4 @@
-zipper' :: [a] -> [b] -> [(a,b)]
--- zipper' [] [] = []
+zipper' :: [a] -> [b] -> [(a,b)] -- zipper' type
 zipper' [] ys = []
 zipper' x [] = []
 zipper' (x:xs) (y:ys) = (x,y) : zipper' xs ys
