@@ -1,0 +1,11 @@
+higher-order functions
+: func ที่รับ func เข้าไปเป็น argument
+
+composition functions
+: (g . f)(x) = g(f(x))
+: (abs . sum) [-1,-2,-3,-4] มีความหมายเดียวกันกับ abs(sum [-1,-2,-3,-4])
+
+if-condition type
+: (Bool, a, a) -> a
+: รับตัวแปร 3 ตัวได้แก่ Bool, something type anything, something2 type anything
+: แล้ว return ออกมาเป็น something ตัวใดตัวหนึ่งที่รับเข้ามา

@@ -11,4 +11,4 @@ join' [] ys = ys
 join' (x:xs) ys = x : join' xs ys // xs และ ys ต่อคิวเข้า join'
 
 Currying
-จาก Full app เป็น partial app ส่วน uncurry ก็ตรงข้ามกัน
+จาก full app (full argument) เป็น partial app ส่วน uncurry ก็ตรงข้ามกัน
