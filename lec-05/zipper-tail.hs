@@ -1,5 +1,8 @@
+-- type of zipper
+-- zipper :: [a] -> [b] ->[(a,b)]
 zipper l1 l2 = zipper_t l1 l2 []
 
+-- type of zipper_t
 zipper_t :: [a] -> [b] -> [(a,b)] -> [(a,b)]
 zipper_t [] _ res = res
 zipper_t _ [] res = res
