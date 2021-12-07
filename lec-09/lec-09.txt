@@ -1,0 +1,13 @@
+# Checkpoint
+-> 1 constructor
+
+# Exercise08 Answer
+Ord
+-> Answer : 3 constructors LT (Less than)| EQ (Equal)| GT (Greater than)
+-> nswer : 3 ways
+
+If you want to understand with point-free, there is a good example in slide of lec09.
+
+Reminding concept of FP : If there is something redundant, This is quite not FP.
+
+# Folds
