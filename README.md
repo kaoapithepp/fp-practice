@@ -1,9 +1,9 @@
 # Functional Programming
 ### lec-02
 Haskell types
-.
+<br>
 Concept of this lecture's exercise is we want to know whether we can solve this problem
-by using passed function/concept/idea or can not.
+by using passed function / concept / idea or can not.
 ### lec-03
 <b>Pure functions</b>
 <br>: consider whether that function could be cached or not.
@@ -20,7 +20,7 @@ by using passed function/concept/idea or can not.
 <br>`join' (x:xs) ys = x : join' xs ys // xs และ ys ต่อคิวเข้า join'`
 
 <b>Currying</b>
-จาก full app (full argument) เป็น partial app ส่วน uncurry ก็ตรงข้ามกัน
+<br>จาก full app (full argument) เป็น partial app ส่วน uncurry ก็ตรงข้ามกัน
 
 ### lec-04
 <b>higher-order functions</b>
@@ -39,3 +39,9 @@ by using passed function/concept/idea or can not.
 <b>tail recursion</b>
 
 ### lec-09
+<b>Folds</b>
+<br> It is the same with sum as we used it in previous lecture. But we break down by using the concepts we have learned.
+<br><i>Example</i>
+<br>`sum l = foldl (+) 0 l`
+<br><b><i>Use case</i></b>
+<br>Javascript : `sum = l => l.reduce((accumurator, x) => accumurator + x,0)`
