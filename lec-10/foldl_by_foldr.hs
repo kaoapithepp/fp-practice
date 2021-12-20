@@ -1,0 +1,1 @@
+foldl f a bs = foldr (\b g x -> g (f x b)) id bs a
