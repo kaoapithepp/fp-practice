@@ -7,3 +7,8 @@ len_comp xs = sum [1 | _ <- xs]
 -- len_comp [2,6,1,4,9,7]
 -- len_comp ['a','b','c','d','e','f']
 -- len_comp ["functional", "programming", "is", "hard"]
+
+-- checkpoint 07
+-- g = \f l -> l ++ map f l
+-- g = \f l -> ap (++) (map f) l
+-- g = ap (++) (map)

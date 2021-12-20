@@ -13,9 +13,6 @@ filter_concat (pred) (x:xs)
 
 -- Question : can you avoid recursion in your definition?
 
-filter_avoid _ [] = []
-filter_avoid (pred) (x) = map pred x
-
 -- Question : Rewrite (\l -> length l < 3) without lambda
 -- filter_concat ((< 3) . length) [[1,2,3],[4],[5,6],[],[7,8,9,10]]
 -- type is => filter_concat :: ([a] -> Bool) -> [[a]] -> [a]
