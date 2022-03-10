@@ -1,0 +1,1 @@
+findMax_fold l = foldl (\acc elem -> Just $ maybe elem (max elem) acc) Nothing l
